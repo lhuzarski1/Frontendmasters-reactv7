@@ -1,8 +1,8 @@
 import { render } from "react-dom";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
-import { StrictMode } from 'react'
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { StrictMode } from "react";
+import Details from "./Details";
 import SearchParams from "./SearchParams";
-import Details from './Details'
 
 const App = () => {
   return (
