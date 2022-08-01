@@ -83,6 +83,18 @@ const SearchParams = () => {
             ))}
           </select>
         </label>
+        <label htmlFor="theme">
+          <select
+            value={theme}
+            onChange={(e) => setTheme(e.target.value)}
+            onBlur={(e) => setTheme(e.target.value)}
+          >
+            <option value="darkblue">Darkblue</option>
+            <option value="pink">Pink</option>
+            <option value="green">Green</option>
+            <option value="red">Red</option>
+          </select>
+        </label>
         <button style={{ backgroundColor: theme }}>Submit</button>
       </form>
         <Results pets={pets} />
